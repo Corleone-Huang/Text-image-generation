@@ -12,6 +12,6 @@ cd GUI_Interface
 python app.py
 ```
 
-<img src="初始界面.png" width="200" height="200">
+<img src="初始界面.png" width="401" height="283">
 
-![The initial interface](初始界面.png)
+
