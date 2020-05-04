@@ -1,0 +1,34 @@
+CONFIG_NAME: 'sample coco config'
+
+DATASET_NAME: 'coco'
+DATA_DIR: 'data/coco/'
+WORKERS: 1
+
+
+TREE:
+    BRANCH_NUM: 3
+
+
+TRAIN:
+    FLAG: False
+    NET_G:  ''
+    B_NET_D: False
+    BATCH_SIZE: 10  
+    NET_E: 'Model/coco/text_encoder100.pth'
+    SMOOTH:
+        GAMMA1: 4.0  # 1,2,5 good 4 best  10&100bad
+        GAMMA2: 5.0
+        GAMMA3: 10.0  # 10good 1&100bad
+        LAMBDA: 50.0
+
+
+GAN:
+    DF_DIM: 96  # !注意要和训练时保持一致
+    GF_DIM: 48  # !注意要和训练时保持一致
+    Z_DIM: 100
+    R_NUM: 3
+
+TEXT:
+    EMBEDDING_DIM: 256
+    CAPTIONS_PER_IMAGE: 5
+    WORDS_NUM: 12

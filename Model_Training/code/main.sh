@@ -1,0 +1,1 @@
+python main.py --cfg cfg/eval_bird.yml --gpu 4
