@@ -5,3 +5,9 @@ This is my graduation project. This is a Pytorch 1.4.0 implementation for reprod
 
 
 ## GUI Interface
+Simply follow the following command:
+
+'''python
+cd GUI_Interface
+
+'''
