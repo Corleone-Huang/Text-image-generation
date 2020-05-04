@@ -12,4 +12,4 @@ cd GUI_Interface
 python app.py
 ```
 
-[The initial interface](figures/初始界面.png)
+![The initial interface](初始界面.png)
