@@ -9,5 +9,7 @@ Simply follow the following command:
 
 ```python
 cd GUI_Interface
-
+python app.py
 ```
+
+[Listen]: https://dict.eudic.net/ting "每日英语听力"
